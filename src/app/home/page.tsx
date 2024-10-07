@@ -62,17 +62,17 @@ export default function Home() {
         <div id="TailwindPage" className=" p-4 border-4 flex flex-col items-center">
             <h2 className="text-[40px]">TailwindPage</h2>
             <Image src={tawild} alt="" height={300} className="p-4"/>
-            <p>Tailwind CSS is a design system implementation in pure CSS. It is also configurable. It gives developers super powers. It allows them to build websites with a clean consistent UI out of the box.</p>
+            <p className=" text-center">Tailwind CSS is a design system implementation in pure CSS. It is also configurable. It gives developers super powers. It allows them to build websites with a clean consistent UI out of the box.</p>
         </div>
         <div id="NextPage" className="p-4 border-4 flex flex-col items-center">
             <h2 className="text-[40px]">Next</h2>
             <Image src={nextimg} alt="" height={300} className="p-4"/>
-            <p>The React Framework for the Web. Used by some of the world's largest companies, Next.js enables you to create high-quality web applications with the power of React components.</p>
+            <p className=" text-center">The React Framework for the Web. Used by some of the world's largest companies, Next.js enables you to create high-quality web applications with the power of React components.</p>
         </div>
         <div id="JqueryPage" className=" p-4 border-4 flex flex-col items-center">
             <h2 className="text-[40px]">Jquery</h2>
             <Image src={jqueryimg} alt="" height={300} className="p-4"/>
-            <p>jQuery is a lightweight, "write less, do more", JavaScript library. The purpose of jQuery is to make it much easier to use JavaScript on your website. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.</p>
+            <p className=" text-center">jQuery is a lightweight, "write less, do more", JavaScript library. The purpose of jQuery is to make it much easier to use JavaScript on your website. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.</p>
         </div>
     </div>
   );
