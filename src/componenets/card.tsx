@@ -4,14 +4,18 @@ interface ICard{
     desc:string
 }
 
-export const Card=({name,desc}:ICard)=>{
+const Card=({name,desc}:ICard)=>{
     return(
-        <div className="w-200 h-400 bg-white">
-            <div className="w-full h-1/3">
-                {name}
+        <div className="w-[300px] h-[400px]">
+            <div className="flex items-center justify-center text-center bg-blue">
+                <h2>
+                    {name}
+                </h2>
             </div>
             <div>
-                {desc}
+                <p>
+                    {desc}
+                </p>
             </div>
             <div>
                 <a href={`#${name}Page`} ><button>Read more</button></a>
@@ -19,3 +23,5 @@ export const Card=({name,desc}:ICard)=>{
         </div>
     )
 }
+
+export default Card;
