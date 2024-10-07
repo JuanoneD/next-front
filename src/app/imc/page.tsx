@@ -32,7 +32,7 @@ const Imc: React.FC=()=>{
             {imc &&
                 <div className="flex justify-center aling-center mt-6 mb-6">
                     <div className="flex flex-col bg-blue1 p-6 rounded-md w-1/3 text-white">
-                    <h2>Seu IMC:{!isNaN(imc??NaN)?imc:"Valores Invalidos"}</h2>
+                    <h2>Seu IMC:{!isNaN(imc??NaN)?imc.toFixed(2):"Valores Invalidos"}</h2>
                     </div>
                 </div>
             }

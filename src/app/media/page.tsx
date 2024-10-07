@@ -47,7 +47,7 @@ const Media: React.FC=()=>{
             {media &&
                 <div className="flex justify-center aling-center mt-6 mb-6">
                     <div className="flex flex-col bg-blue1 p-6 rounded-md w-1/3 text-white">
-                        <h2>Sua media é: {!isNaN(media??NaN)?media:"Valores Invalidos"}</h2>
+                        <h2>Sua media é: {!isNaN(media??NaN)?media.toFixed(2):"Valores Invalidos"}</h2>
                         {media>=7?"Voce está Aprovado":"Voce Esta Reprovado"}
                     </div>
                 </div>
